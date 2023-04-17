@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Bigelow+Rules&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Playfair+Display:wght@400;600;700&family=Poppins&family=Prompt:wght@200;400;500;700&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.scss" />
+    <title>Scroll-activated images reveal</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-section">
+        <div class="hero-content">
+          <h1>Welcome to Egypt</h1>
+          <p class="tagline">Discover a world of wonders</p>
+          <div class="hero-numbers">
+            <div class="col-1 hero-number">
+              <span class="number">2K+</span>
+              <span class="number-description">kilometers of coastline</span>
+            </div>
+            <div class="col-2 hero-number">
+              <span class="number">300</span>
+              <span class="number-description">days of sunshine</span>
+            </div>
+            <div class="col-3 hero-number">
+              <span class="number">20+</span>
+              <span class="number-description">traditional bazaars</span>
+            </div>
+          </div>
+          <a href="#" class="cta-button">Book a Trip</a>
+        </div>
+      </div>
+
+      <div class="photos-container">
+        <span class="choices">Best Choices</span>
+        <h3>Popular Destinations<span class="dot">.</span></h3>
+        <div class="cards-container">
+          <div class="card card-1">
+            <div class="img-container">
+              <div class="img" id="img-1"></div>
+            </div>
+            <div class="price">
+              <span class="dollar">$</span>
+              <span>150</span>
+            </div>
+            <h3 class="title">Alexandria</h3>
+            <p>
+              Alexandria is a historic port city located on the Mediterranean
+              coast of Egypt. It was founded by Alexander the Great in 331 BCE.
+            </p>
+          </div>
+          <div class="card card-2">
+            <div class="img-container">
+              <div class="img" id="img-2"></div>
+            </div>
+            <div class="price">
+              <span class="dollar">$</span>
+              <span>230</span>
+            </div>
+            <h3 class="title">Karnak Temple Complex</h3>
+            <p>
+              The Karnak Temple Complex is a vast open-air museum located in
+              Luxor, and is considered one of the largest and most impressive
+              temple complexes in the world.
+            </p>
+          </div>
+          <div class="card card-3">
+            <div class="img-container">
+              <div class="img" id="img-3"></div>
+            </div>
+            <div class="price">
+              <span class="dollar">$</span>
+              <span>300</span>
+            </div>
+            <h3 class="title">Great Sphinx of Giza</h3>
+            <p>
+              The Great Sphinx of Giza is a massive limestone statue located on
+              the Giza Plateau, just outside of Cairo.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>About Us</h3>
+              <p>
+                We are a travel agency dedicated to providing the best travel
+                experiences to our clients. With over 10 years of experience, we
+                have helped thousands of people plan their dream vacations.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h3>Contact Us</h3>
+              <ul>
+                <li><i class="fa fa-phone"></i> Phone: +1 (123) 456-7890</li>
+                <li>
+                  <i class="fa fa-envelope"></i> Email: info@travelagency.com
+                </li>
+                <li>
+                  <i class="fa fa-map-marker"></i> Address: 123 Main St, Anytown
+                  USA
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Follow Us</h3>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
